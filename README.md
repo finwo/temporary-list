@@ -8,7 +8,14 @@ It's been setup to be deployed on [dokku-alt](https://github.com/dokku-alt/dokku
 
 -----
 
-### Usage:
+### Deprecation
+
+I've decided to create a new project, along the lines of DHT which could be used with multiple languages (C, PHP, NodeJS).
+Once that project has been created, this repository will be deprecated and only receive bugfixes.
+
+-----
+
+### Usage
 Call {domain}/v1/{message}/{box}.{format} to leave a message & to view the current message list.
 
 All of the arguments listed here are required.
